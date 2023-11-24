@@ -1,6 +1,8 @@
 import 'dart:convert';
 
+import 'package:api_example/models/products/ProductModel.dart';
 import 'package:api_example/products_page.dart';
+import 'package:api_example/wallpaper_page.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ProductsPage(),
+      home: WallpaperPage(),
     );
   }
 }
