@@ -6,6 +6,7 @@ import 'package:api_example/wallpaper_page.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import 'curated_page.dart';
 import 'models/QuoteModel.dart';
 
 void main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WallpaperPage(),
+      home: CuratedPage(),
     );
   }
 }
